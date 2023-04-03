@@ -1,0 +1,58 @@
+/* PARAMETRAGE GENERAUX */ 
+.Body{
+    font-size: 100%;
+    max-width: 90rem;
+    min-width: 20rem; /* Minimum 320px */ 
+    margin-inline: auto;
+
+    box-sizing: border-box;
+    padding:0  3.125rem;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+a{ text-decoration: none; }
+
+:root{
+    --light-blue: #0065FC;
+    --background-grey:#F2F2F2;
+}
+/* PARAMETRAGE GENERAUX */ 
+
+/* =============================== */ 
+/* ========    HEADER  ==========  */ 
+/* =============================== */ 
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header__logo{
+    height:1.1875rem;
+    width:3.8125rem;
+    margin-top:1.875rem;
+}
+
+.Header__link{
+    font-weight: 400;
+    font-size:1rem;
+    position: relative;
+    text-transform: capitalize;
+}
+.Header__link:hover{
+    color: var(--light-blue);
+}
+.Header__link:hover::after{
+    content: '';
+    position: absolute;
+    border: solid 1.4px var(--light-blue);
+    width: 100%;
+    right:0;
+    top:-1.4375rem;
+}
+
+.Header__link--margin{
+    margin-left:4.375rem;
+}
