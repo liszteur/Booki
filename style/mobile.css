@@ -9,6 +9,11 @@
 /* ================ */ 
 
 
+/* =============================== */ 
+/* ========    HEADER  ==========  */ 
+/* =============================== */ 
+
+
  .Header{
    flex-direction: column;
  }
@@ -40,4 +45,19 @@
  .Header__link--margin{
     margin:0;
   }
+  
+  
+  /* =============================== */ 
+  /* ========    FOOTER  ==========  */ 
+  /* =============================== */ 
+  .Footer{
+    display: flex;
+    flex-direction: column;
+    padding:1.875rem;
+  }
+
+  .Footer__nav__title--margin{
+   margin-top:3.125rem;
+  }
+  
 }

@@ -49,3 +49,28 @@ a{ text-decoration: none; }
 .Header__link--margin{
     margin-left:4.375rem;
 }
+
+
+/* =============================== */ 
+/* ========    FOOTER  ==========  */ 
+/* =============================== */ 
+.Footer{
+    display:grid;
+    grid-template-columns: 35%  35%  30%;
+    background-color: var(--background-grey);
+    padding:1.25rem;
+}
+
+.Footer__nav{
+    display:flex;
+    flex-direction: column;
+}
+
+.Footer__nav__title{
+    font-size:1.125rem;
+    margin:0;
+}
+
+.Footer__nav__link{
+    margin-top:15px;
+}
