@@ -55,7 +55,6 @@ a{ text-decoration: none; }
 /* =============================== */ 
 /* ========    MAIN  ==========  */ 
 /* =============================== */ 
-
 .Main{
     margin-top:4rem;
 }
@@ -72,7 +71,6 @@ a{ text-decoration: none; }
 .Main__form{
     display:flex;
     margin: 2.1875rem 0;
-    font-family: 'Raleway', sans-serif;
 }
 
 .Main__form__logo{
@@ -87,7 +85,6 @@ a{ text-decoration: none; }
     border:solid 1px var(--background-grey);
     font-size:1.125rem;
     font-weight:700;
-    color:black;
     padding-left:1.5rem;
     width:12.1875rem;
 }
@@ -96,10 +93,10 @@ a{ text-decoration: none; }
     background-color: var(--light-blue);
     color:white;
     font-size:1.125rem;
-    font-weight: 700;
-    text-transform: capitalize;
+    font-weight: 600;
     border-radius: 0 0.9375rem 0.9375rem 0;
-    padding:0.875rem;
+    padding:0.875rem 1rem;
+    border:none;
 }
 
 .Main__form__loupe{

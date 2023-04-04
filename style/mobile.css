@@ -91,3 +91,22 @@
   }
   
 }
+
+
+
+
+
+
+
+/* PETIT RESPONSIVE + */ 
+
+
+/* FORMULAIRE DU MAIN */ 
+@media(max-width:22.5rem){
+  .Main__form__input{
+    padding:0 0 0 0.625rem;
+  }
+  .Main__form__loupe{
+    left:15rem;
+  }
+}
