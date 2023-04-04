@@ -45,6 +45,36 @@
  .Header__link--margin{
     margin:0;
   }
+
+
+  /* =============================== */ 
+/* ========   MAIN    ==========  */ 
+/* =============================== */
+.Main{
+  padding:2.5rem 1.25rem 2.1875rem 1.25rem;
+  margin-top:0;
+}
+.Main__title{
+  font-size:1.375rem;
+}
+
+.Main__form__input{
+  box-sizing: content-box;
+  padding-right:2.5rem;
+}
+
+.Main__form__bouton{
+  display: none;
+}
+.Main__form__loupe{
+  visibility: visible;
+  position: absolute;
+  left:18.75rem;
+  cursor: pointer;
+}
+.Main__form__logo{
+  padding:0.95rem;
+}
   
   
   /* =============================== */ 
