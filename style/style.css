@@ -31,6 +31,12 @@ a{ text-decoration: none; }
     margin-top:1.875rem;
 }
 
+.Header__nav{
+    display:flex;
+    width:240px;
+    justify-content: space-between;
+}
+
 .Header__link{
     position: relative;
 }
@@ -47,9 +53,6 @@ a{ text-decoration: none; }
     top:-1.4375rem;
 }
 
-.Header__link--margin{
-    margin-left:4.375rem;
-}
 
 /* =============================== */ 
 /* ========    MAIN  ==========  */ 
@@ -126,6 +129,7 @@ a{ text-decoration: none; }
     padding:0.6875rem 1.25rem;
 }
 
+
 .Section__figure__logo{
     width:1.375rem;
 }
@@ -164,8 +168,6 @@ a{ text-decoration: none; }
     border: solid var(--background-grey) 2px;
     margin-right:0.625rem;
 }
-
-
 
 
 /* =============================== */ 
