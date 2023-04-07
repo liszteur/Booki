@@ -58,6 +58,8 @@
   font-size:1.375rem;
 }
 
+
+/* Formulaire */ 
 .Main__form__input{
   box-sizing: content-box;
   padding-right:2.5rem;
@@ -75,8 +77,22 @@
 .Main__form__logo{
   padding:0.95rem;
 }
+
+
+/* Filtres */ 
+.Section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Section__title{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin:0;
+}
   
-  
+.Section__figure__title{
+  font-size:0.875rem;
+}
   /* =============================== */ 
   /* ========    FOOTER  ==========  */ 
   /* =============================== */ 
