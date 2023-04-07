@@ -7,16 +7,15 @@
     box-sizing: border-box;
     padding:0  3.125rem;
 }
-a{ text-decoration: none; }
 :root{
     --light-blue: #0065FC;
     --background-grey:#F2F2F2;
     --clear-blue:#DEEBFF;
 }
-*{
-    font-family: 'Raleway', sans-serif;
-}
+a{ text-decoration: none; }
+*{ font-family: 'Raleway', sans-serif; }
 /* PARAMETRAGE GENERAUX */ 
+
 
 /* =============================== */ 
 /* ========    HEADER  ==========  */ 
@@ -29,17 +28,16 @@ a{ text-decoration: none; }
 }
 
 .Header__logo{
-    width:3.8125rem;
     margin-top:1.875rem;
 }
 
 .Header__link{
     position: relative;
-    text-transform: capitalize;
 }
 .Header__link:hover{
     color: var(--light-blue);
 }
+
 .Header__link:hover::after{
     content: '';
     position: absolute;
