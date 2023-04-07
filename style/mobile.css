@@ -18,17 +18,13 @@
    flex-direction: column;
  }
 
- .Header__logo{
-   margin:1.875rem 0;
- }
-
  .Header__nav{
+   margin:1.875rem 0 0 0;
    display:grid;
    width:100%;
    grid-template-columns: 50% 1fr;
    text-align: center;
  }
-
 
  .Header__link::after{
    content: '';
@@ -42,11 +38,6 @@
   top:auto;
  }
 
- .Header__link--margin{
-    margin:0;
-  }
-
-
   /* =============================== */ 
 /* ========   MAIN    ==========  */ 
 /* =============================== */
@@ -54,10 +45,6 @@
   padding:2.5rem 1.25rem 2.1875rem 1.25rem;
   margin-top:0;
 }
-.Main__title{
-  font-size:1.375rem;
-}
-
 
 /* Formulaire */ 
 .Main__form__input{
