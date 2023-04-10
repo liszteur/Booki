@@ -80,6 +80,31 @@
 .Section__figure__title{
   font-size:0.875rem;
 }
+
+
+
+/* =============================== */ 
+/* ========   ACTIVITES    ==========  */ 
+/* =============================== */
+.Article__nav{
+  display: flex;
+  flex-direction: column;
+  gap: 0.9375rem;
+}
+
+.Article__img{
+  height: 8.8125rem;
+}
+
+.Article__text{
+  height: 3.125rem;
+  margin: 0 1.1875rem 0.3125rem 1.1875rem;
+}
+
+
+
+
+
   /* =============================== */ 
   /* ========    FOOTER  ==========  */ 
   /* =============================== */ 

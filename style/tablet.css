@@ -1,6 +1,24 @@
 /*  >=768 px pour les tablettes */ 
 
 @media(max-width:64rem){
-    
-    
+ .Article__img{
+    height:12.5rem;
+ }
+
+ .Article__text{
+    box-sizing: border-box;
+    height:4.0625rem;
+    display: flex;
+    align-items: center;
+    margin: 0 1.1875rem 0.3125rem 1.1875rem;
+ }
+}
+
+
+
+/* petit responsive */ 
+@media(max-width:790px){
+    .Article__text{
+        margin: 0 0.8125rem 0 0.8125rem;
+    }
 }
