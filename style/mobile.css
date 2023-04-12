@@ -105,6 +105,35 @@
 
 
 
+/* =============================== */ 
+/* ========   HEBERGEMENT    ==========  */ 
+/* =============================== */
+.Hebergement{
+  flex-direction: column-reverse;
+}
+
+.Marseille{
+  background-color: white;
+  padding: 1.25rem;
+  margin-bottom:2.8125rem;
+}
+
+.Marseille__title{
+  margin-bottom: 0.9375rem;
+}
+
+.Marseille__nav{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.9375rem;
+}
+
+
+
+
+
+
+
+
   /* =============================== */ 
   /* ========    FOOTER  ==========  */ 
   /* =============================== */ 

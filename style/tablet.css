@@ -12,6 +12,17 @@
     align-items: center;
     margin: 0 1.1875rem 0.3125rem 1.1875rem;
  }
+
+
+ 
+ /* ========  Hebergement  ==========  */ 
+ .Hebergement{
+    display: flex;
+    flex-direction: column;
+} 
+
+
+
 }
 
 
