@@ -257,6 +257,74 @@ a{ text-decoration: none; }
 
 }
 
+.Populaire__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Populaire__title{
+    margin: 0;
+    font-size: 22px;
+}
+
+.Populaire__graph{
+    font-size: 20px;
+    color: var(--light-blue);
+}
+
+.Populaire__nav{
+    display:grid;
+    gap: 30px;
+}
+
+
+.Populaire__link{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    height: 136px;
+    position: relative;
+}
+
+.Populaire__img{
+    width: 33%;
+    object-fit: cover;
+    border-radius: 16px 0 0 16px;
+}
+
+.Populaire__figcaption{
+    padding: 10px 10px 0 15px;
+    color:black;
+}
+
+.Populaire__titre{
+    margin: 0;
+    font-weight: 800;
+}
+
+.Populaire__price{
+    margin: 5px 0 0 0;
+}
+
+.Populaire__logos{
+    position: absolute;
+    bottom: 10px;
+}
+
+.Populaire__logo{
+    color: var(--light-blue);
+    font-size: 12px;
+    width: 10px;
+}
+
+.Blanco{
+    color: var(--background-grey);
+}
+
 
 
 

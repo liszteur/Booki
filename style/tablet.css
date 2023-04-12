@@ -19,9 +19,23 @@
  .Hebergement{
     display: flex;
     flex-direction: column;
+    gap: 50px;
 } 
 
 
+ /* ========  Populaire  ==========  */ 
+
+ .Populaire__nav{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+ .Populaire__figcaption{
+    padding-right: 0;
+ }
+ 
+ .Populaire__price{
+    font-size: 14px;
+ }
 
 }
 
