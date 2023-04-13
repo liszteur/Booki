@@ -22,5 +22,5 @@ Gris pour le fond (#F2F2F2)
 # Projet terminé : 
 
 CSS validator checked. 
-
+HTML validator checked.
 
