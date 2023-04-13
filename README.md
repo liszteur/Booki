@@ -19,4 +19,8 @@ Gris pour le fond (#F2F2F2)
  >=768 px pour les tablettes ;
  et tout ce qui est en dessous de 768 pour les téléphones portables
 
+# Projet terminé : 
+
+CSS validator checked. 
+
 

@@ -16,6 +16,7 @@
 
  .Header{
    flex-direction: column;
+   margin: 0;
  }
 
  .Header__nav{
@@ -43,7 +44,6 @@
 /* =============================== */
 .Main{
   padding:2.5rem 1.25rem 2.1875rem 1.25rem;
-  margin-top:0;
 }
 
 /* Formulaire */ 
@@ -117,7 +117,7 @@
 /* =============================== */
 .Hebergement{
   flex-direction: column-reverse;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .Marseille{
@@ -126,7 +126,7 @@
 }
 
 #Hebergements{
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .Marseille__nav{
@@ -145,13 +145,13 @@
 }
 
 .Populaire__div{
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 
 .Populaire__nav{
   grid-template-columns: repeat(1, 1fr);
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 
@@ -171,6 +171,10 @@
 
   .Footer__nav__title--margin{
    margin-top:3.125rem;
+  }
+
+  .test{
+    font-size: 1rem;
   }
   
 }
