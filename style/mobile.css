@@ -82,6 +82,13 @@
 }
 
 
+.Information{
+  margin-bottom:0;
+}
+.Information__text{
+  margin-bottom: 0;
+}
+
 
 /* =============================== */ 
 /* ========   ACTIVITES    ==========  */ 
@@ -116,11 +123,10 @@
 .Marseille{
   background-color: white;
   padding: 1.25rem;
-  margin-bottom:2.8125rem;
 }
 
-.Marseille__title{
-  margin-bottom: 0.9375rem;
+#Hebergements{
+  margin-bottom: 15px;
 }
 
 .Marseille__nav{
