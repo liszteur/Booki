@@ -82,6 +82,13 @@
 }
 
 
+.Information{
+  margin-bottom:0;
+}
+.Information__text{
+  margin-bottom: 0;
+}
+
 
 /* =============================== */ 
 /* ========   ACTIVITES    ==========  */ 
@@ -100,6 +107,54 @@
   height: 3.125rem;
   margin: 0 1.1875rem 0.3125rem 1.1875rem;
 }
+
+
+
+
+
+/* =============================== */ 
+/* ========   HEBERGEMENT    ==========  */ 
+/* =============================== */
+.Hebergement{
+  flex-direction: column-reverse;
+  gap: 15px;
+}
+
+.Marseille{
+  background-color: white;
+  padding: 1.25rem;
+}
+
+#Hebergements{
+  margin-bottom: 15px;
+}
+
+.Marseille__nav{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.9375rem;
+}
+
+
+
+/* =============================== */ 
+/* ========   POPULAIRES    ==========  */ 
+/* =============================== */
+.Populaire{
+  border-radius: 0;
+  padding: 20px 20px 30px 20px;
+}
+
+.Populaire__div{
+  margin-bottom: 15px;
+}
+
+
+.Populaire__nav{
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+}
+
+
 
 
 

@@ -17,6 +17,8 @@ a{ text-decoration: none; }
 /* PARAMETRAGE GENERAUX */ 
 
 
+
+
 /* =============================== */ 
 /* ========    HEADER  ==========  */ 
 /* =============================== */ 
@@ -33,7 +35,7 @@ a{ text-decoration: none; }
 
 .Header__nav{
     display:flex;
-    width:240px;
+    width:15rem;
     justify-content: space-between;
 }
 
@@ -58,7 +60,7 @@ a{ text-decoration: none; }
 /* ========    MAIN  ==========  */ 
 /* =============================== */ 
 .Main{
-    margin-top:4rem;
+    margin-top:3.75rem;
 }
 
 .Main__title{
@@ -79,7 +81,7 @@ a{ text-decoration: none; }
 }
 
 .Main__form__logo{
-    width:0.875rem;
+    font-size: 1.125rem;
     padding:1.1875rem 1.375rem;
     background-color: var(--background-grey);
     border-radius: 0.9375rem 0px 0px 0.9375rem;
@@ -124,22 +126,15 @@ a{ text-decoration: none; }
     display: flex;
     align-items: center;
     border-radius: 25px;
-    border: solid var(--background-grey) 2px;
+    border: solid #D9D9D9 2px;
     margin:0;
     padding:0.6875rem 1.25rem;
 }
 
 
 .Section__figure__logo{
-    width:1.375rem;
-}
-.Section__figure__logo--petit{
-    height:1.375rem;
-    width:0.8125rem;
-}
-.Section__figure__logo--moyen{
-    height:1.25rem;
-    width:1.125rem;
+    font-size: 20px;
+    color: var(--light-blue);
 }
 
 .Section__figure__title{
@@ -159,6 +154,7 @@ a{ text-decoration: none; }
     display: flex;
     margin-top:1.125rem;
     align-items: center;
+    margin-bottom:37px;
 }
 .Information__logo{
     width:0.5625rem;
@@ -171,6 +167,163 @@ a{ text-decoration: none; }
 
 
 
+
+
+/* =============================== */ 
+/* ========  Hebergement  ==========  */ 
+/* =============================== */
+.Hebergement{
+    display: grid;
+    grid-template-columns: 2.05fr 1fr;
+    gap: 40px;
+    margin-bottom: 4.0625rem;
+}
+
+
+/* ========  Marseille  ==========  */ 
+.Marseille{
+    background-color: var(--background-grey);
+    border-radius: 15px;
+    padding: 1.875rem;
+}
+
+#Hebergements{
+    font-size:1.375rem;
+    margin: 0 0 1.875rem 0;
+}
+
+.Marseille__nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.875rem;
+}
+
+.Marseille__link{
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 0.375rem;
+}
+
+.Marseille__img{
+    object-fit: cover;
+    width: 100%;
+    height: 7.375rem;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Marseille__figcaption{
+    padding: 0.25rem 0 0.4375rem 0.6875rem;
+    color: black;
+}
+
+.Marseille__text{
+    margin: 0 0 0.5rem 0;
+}
+.Marseille__price{
+    margin: 0 0 0.1875rem 0;
+    font-size:0.875rem;
+}
+
+.Marseille__logo{
+    width: 0.75rem;
+    font-size: 0.8125rem;
+    color: var(--light-blue);
+}
+.Blanc{
+    color: var(--background-grey);
+}
+
+.Marseille__more{
+    color: black;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* ========  Populaire  ==========  */ 
+.Populaire{
+    background-color: var(--background-grey);
+    border-radius: 15px;
+    padding: 30px;
+
+}
+
+.Populaire__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Populaire__title{
+    margin: 0;
+    font-size: 22px;
+}
+
+.Populaire__graph{
+    font-size: 20px;
+    color: var(--light-blue);
+}
+
+.Populaire__nav{
+    display:grid;
+    gap: 30px;
+}
+
+
+.Populaire__link{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 5px;
+    height: 136px;
+    position: relative;
+}
+
+.Populaire__img{
+    width: 33%;
+    object-fit: cover;
+    border-radius: 16px 0 0 16px;
+}
+
+.Populaire__figcaption{
+    padding: 10px 10px 0 15px;
+    color:black;
+}
+
+.Populaire__titre{
+    margin: 0;
+    font-weight: 800;
+}
+
+.Populaire__price{
+    margin: 5px 0 0 0;
+}
+
+.Populaire__logos{
+    position: absolute;
+    bottom: 10px;
+}
+
+.Populaire__logo{
+    color: var(--light-blue);
+    font-size: 12px;
+    width: 10px;
+}
+
+.Blanco{
+    color: var(--background-grey);
+}
+
+
+
+
 /* =============================== */ 
 /* ========  ACTIVITES  ==========  */ 
 /* =============================== */
@@ -179,7 +332,7 @@ a{ text-decoration: none; }
    margin-bottom:4.0625rem;
 }
 
-.Article__title{
+#Activites{
     font-size:1.375rem;
     margin-bottom:1.875rem;
 }
