@@ -101,6 +101,7 @@ a{ text-decoration: none; }
     border-radius: 0 0.9375rem 0.9375rem 0;
     padding:0.875rem 1rem;
     border:none;
+    cursor: pointer;
 }
 
 .Main__form__loupe{
@@ -254,7 +255,7 @@ a{ text-decoration: none; }
 .Populaire{
     background-color: var(--background-grey);
     border-radius: 15px;
-    padding: 30px;
+    padding: 1.875rem;
 
 }
 
@@ -271,13 +272,13 @@ a{ text-decoration: none; }
 }
 
 .Populaire__graph{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--light-blue);
 }
 
 .Populaire__nav{
     display:grid;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 
